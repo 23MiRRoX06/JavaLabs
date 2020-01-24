@@ -2,7 +2,7 @@ package ua.lviv.iot.firstLab;
 
 public class ElectricLamp {
 
-    public static int heightInMillimeters = 800;
+    private static int heightInMillimeters = 800;
 
     private String factoryManufacturer;
 
