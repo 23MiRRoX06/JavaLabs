@@ -98,15 +98,15 @@ public class ElectricLamp {
                 + numberOfLightSources + ", baseMaterial=" + baseMaterial + ", style=" + style + "]";
     }
 
-    public void PrintHeightInMillimeters() {
+    public void printHeightInMillimeters() {
         System.out.println("Height of lamp = " + heightInMillimeters);
     }
 
-    public static void PrintStaticHeightInMillimeters() {
+    public static void printStaticHeightInMillimeters() {
         System.out.println("Height of lamp = " + heightInMillimeters);
     }
 
-    public void ResetValues(String factoryManufacturer, String countryManufacturer, int warrantyWorkPeriodInDays,
+    public void resetValues(String factoryManufacturer, String countryManufacturer, int warrantyWorkPeriodInDays,
                             int lightPowerInWatts, String color, int numberOfLightSources, String baseMaterial, String style) {
         this.factoryManufacturer = factoryManufacturer;
         this.countryManufacturer = countryManufacturer;
