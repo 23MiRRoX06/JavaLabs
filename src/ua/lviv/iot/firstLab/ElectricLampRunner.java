@@ -11,7 +11,7 @@ public class ElectricLampRunner {
         System.out.println(studyLamp);
         officeLamp.printHeightInMillimeters();
         ElectricLamp.printStaticHeightInMillimeters();
-        ElectricLamp [] setOfLamps = new ElectricLamp[4];
+        ElectricLamp [] setOfLamps = new ElectricLamp [4];
         int setOfLampsIndex = 0;
         while (setOfLampsIndex < 4) {
             setOfLamps[setOfLampsIndex] = new ElectricLamp();

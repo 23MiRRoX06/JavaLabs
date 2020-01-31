@@ -90,7 +90,6 @@ public class ElectricLamp {
         this("Brille", "Poland", 360, 60, "black", 1, "plastic", "loft");
     }
 
-    @Override
     public String toString() {
         return "ElectricLamp [factoryManufacturer=" + factoryManufacturer + ", countryManufacturer="
                 + countryManufacturer + ", warrantyWorkPeriodInDays=" + warrantyWorkPeriodInDays
